@@ -1,12 +1,12 @@
 {
   "name": "error-exit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Logs error, then exits.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Anders D. Johnson",
+  "author": "Anders D. Johnson (https://andersdjohnson.com)",
   "license": "ISC"
 }
