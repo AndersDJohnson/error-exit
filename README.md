@@ -9,8 +9,9 @@ npm add error-exit
 import errorExit from 'error-exit'
 
 const doSomething = (error, result) => {
-  // exits if there's an error, otherwise pass-thru
-  errorExit(error)
+  if (error) return errorExit(error)
+  
+  // else proceed...
 };
 
 doSomething(callback)
